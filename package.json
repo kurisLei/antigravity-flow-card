@@ -1,0 +1,44 @@
+{
+  "name": "antigravity-flow-card",
+  "version": "1.0.0",
+  "description": "适用于背景元素的反重力流动画卡片",
+  "keywords": [
+    "Vue",
+    "Vue3",
+    "Card",
+    "antigravity-flow-card"
+  ],
+  "author": {
+    "name": "Alleyoop",
+    "email": "348627781@qq.com"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vue-tsc -b && vite build"
+  },
+  "dependencies": {
+    "vue": "3.5.12"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.4",
+    "@vitejs/plugin-vue": "5.1.4",
+    "typescript": "5.6.2",
+    "vite": "5.4.10",
+    "vite-plugin-dts": "^4.3.0",
+    "vue-tsc": "2.1.8"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
